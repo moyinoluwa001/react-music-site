@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 1%, 33%);
+  }
+  
+  .input {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: whitesmoke;
+  }
+  .foo{
+    text-align: center;
+    background-color: gray;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .scrollbar {
+    width: 300px;
+    height: 200px;
+    overflow-y: scroll;
+    border: 2px solid white;
+    text-align: center;
+    padding: 70px;
+    border-radius: 10px;
+    background-color: gray;
+  }
+  li:hover{
+   background-color:hsl(0, 0%, 30%) ;
+  
+  } 
+  li{
+    font-weight: bold;
+    color: white; 
+  }
+  h2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .parent {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+  }
+  p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }   
+  
+  input[type="range"] {
+    width: 30%;
+    height: 6px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    cursor: pointer;
+  }
+  
+  .two {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .head{
+    color: white;
+    background-color: orangered;
+  
+  }
+  
+  .head:hover{
+    
+    background-color: hsl(16, 73%, 78%);
+  
+  }
+  .pre{
+     background-color:black ;
+     color: white;
+  }
+  
+  .pre:hover{
+     background-color:hsl(0, 2%, 37%) ;
+  
+  }
+  .pla{
+     background-color: green;
+     color: white;
+  }
+  .pla:hover{
+     background-color: hsl(120, 41%, 46%);
+  }
+  .pau{
+    background-color: red;
+    color: white;
+  }
+  
+  .pau:hover{
+    background-color: hsl(0, 61%, 63%);
+    
+  }
+  .nex{
+    color: white;
+    background-color: blue;
+  }
+  .nex:hover{
+    background-color: rgb(119, 119, 240);
+  }
+  
+  
+  @media screen and(max-width:768px) {
+   .scrollbar{
+    width: 100%;
+    padding: 20px;
+   } 
+   .parent{
+    flex-direction: column;
+    text-align: center;
+   }
+   .input[type="range"]{
+    width: 80%;
+   }
+   button{
+    margin-left: 0;
+    width:100% ;
+   }
+  }
+  @media screen and(max-width: 480px) {
+    .input{
+        font-size: 1rem;
+    }
+    .scrollbar{
+      padding: 10px;  
+    }
+  }
+  
+  /* login and signup styling */
+  
+  
+  
+  input{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px soild #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input:focus{
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,123,225,0.5);
+  
+  }
+  
+  button{
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: back-ground-color 0.3s ease;
+  }
+  button:hover{
+    background-color: #0056b3;
+  }
+  button:active{
+    background-color: #004085;
+  }
+  button:last-child{
+    background-color: #6c757d;
+  }
+  button:last-child:hover{
+    background-color: #58626a;
+  }
+  
+  button:last-child:active{
+    background-color: #444951;
+  }
+  
+  /* responsiveness */
+  
+  @media(max-width:480px) {
+    .auth-container{
+      width: 90px;
+    }
+    .auth-container input,
+    .auth-container button{
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
